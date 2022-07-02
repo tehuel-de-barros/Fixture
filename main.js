@@ -142,7 +142,7 @@ function handleSubmit(event) {
       if (champion1 > champion2) {
         alert("champion one is the best team in the world")
       }
-      else (champion1 < champion2) { 
+      if (champion1 < champion2) { 
         alert("champion two is the best team in the world")
       }
 
