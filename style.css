@@ -1,0 +1,229 @@
+body {
+    font-family: "Roboto";
+    /* font-size: 30px; */
+    background-image: url(./img/fondo.jpg);
+
+}
+  
+  header {
+    background: gray;
+    color: black;
+    text-align: center;
+  }
+  
+  .puntaje{
+    border: 2px solid black;
+    background-color: #D4D5D3;
+  }
+  td{
+    text-align: center;
+  }
+
+  .grupo-tabla{
+    border: 2px solid black;
+    background: #EA9865;
+  }
+  
+  .grupos
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+  }
+  
+  section{
+    margin: 5px;
+  }
+  
+  tr,td,th{
+    border: 1px solid black;
+    width: 80px;
+    height: 46px;
+  }
+/*   
+  .jornada__1 {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  }
+  
+  .grupo-a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 5px;
+  height: 275px;
+  }
+  
+  .grupo-b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px;
+  }
+  
+  .grupo-c {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px;
+  }
+  
+  .grupo-d {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px;
+  }
+  
+  .grupo-e {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px;
+  }
+  
+  .grupo-f {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px;
+  }
+  
+  .grupo-g {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px;
+  }
+  
+  .grupo-h {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px;
+  } */
+
+.ficha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.partido { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+  /* .jornada__2  { 
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .jornada__3 { 
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+  } */
+  
+  /* input  {
+    width: 29px; */
+  /* }
+  
+  .principal {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .octavos {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    
+    .cuartos {
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .semis {
+    padding: 75px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .final {
+      padding: 100px 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    
+    .principal input {
+    width: 150px;
+    } */
+
+    .llaves {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  
+  .llaves div {
+      padding: 5px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  span {
+      text-align: center;
+  }
+  
+  .llaves div section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .llaves div section div {
+      padding-top: 1rem;
+  }
+  
+  #ganador {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  
+  .llaves input { 
+    width: 150px;
+  }
